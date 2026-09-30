@@ -1,0 +1,9 @@
+# monitor_noticias_gratis.py
+requests>=2.31
+feedparser>=6.0
+tzdata; platform_system == "Windows"  # zona horaria America/New_York en Windows
+
+# Opcionales para los fragmentos del informe (requieren claves de API):
+# alpaca-py>=0.44        # noticias Benzinga por WebSocket, datos y órdenes (paper trading)
+# transformers torch     # FinBERT local (ProsusAI/finbert)
+# anthropic>=1.9         # clasificación de titulares con Claude
